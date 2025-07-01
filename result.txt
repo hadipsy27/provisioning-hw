@@ -1,0 +1,38 @@
+--- Desk phone without override fragment ---
+username=john
+password=doe
+domain=sip.voxloud.com
+port=5060
+codecs=G711,G729,OPUS--- Conference phone without override fragment ---
+{
+    "username": "sofia",
+    "password": "red",
+    "domain": "sip.voxloud.com",
+    "port": "5060",
+    "codecs": [
+        "G711",
+        "G729",
+        "OPUS"
+    ]
+}
+--- Desk phone with override fragment ---
+username=walter
+password=white
+domain=sip.anotherdomain.com
+port=5161
+timeout=10
+codecs=G711,G729,OPUS--- Conference phone with override fragment ---
+{
+    "username": "eric",
+    "password": "blue",
+    "domain": "sip.anotherdomain.com",
+    "port": "5161",
+    "timeout": 10,
+    "codecs": [
+        "G711",
+        "G729",
+        "OPUS"
+    ]
+}
+--- Not existing device ---
+404
