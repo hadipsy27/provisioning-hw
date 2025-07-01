@@ -3,7 +3,8 @@ username=john
 password=doe
 domain=sip.voxloud.com
 port=5060
-codecs=G711,G729,OPUS--- Conference phone without override fragment ---
+codecs=G711,G729,OPUS
+--- Conference phone without override fragment ---
 {
     "username": "sofia",
     "password": "red",
@@ -21,7 +22,8 @@ password=white
 domain=sip.anotherdomain.com
 port=5161
 timeout=10
-codecs=G711,G729,OPUS--- Conference phone with override fragment ---
+codecs=G711,G729,OPUS
+--- Conference phone with override fragment ---
 {
     "username": "eric",
     "password": "blue",
